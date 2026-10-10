@@ -25,3 +25,8 @@ strata-*.json
 strata-*.txt
 run-*.sh
 run-*.bat
+
+# Local runtime data and credentials
+/data/
+/.env
+/.env.*
