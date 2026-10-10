@@ -26,5 +26,6 @@ services:
       KV: "${KV:-int8}"
       API_KEY: "${API_KEY:-}"
       REINSTALL: "${REINSTALL:-0}"
+      LOW_RAM: "${LOW_RAM:-off}"
 
     restart: unless-stopped
